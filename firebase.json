@@ -1,0 +1,41 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "wonderwedding-aa6c3",
+          "appId": "1:53974988700:android:b1a96fb260b3ac228c3a59",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "wonderwedding-aa6c3",
+          "configurations": {
+            "android": "1:53974988700:android:b1a96fb260b3ac228c3a59",
+            "ios": "1:53974988700:ios:b694d41fb55434288c3a59",
+            "macos": "1:53974988700:ios:b694d41fb55434288c3a59",
+            "web": "1:53974988700:web:5d90bd704e1290878c3a59",
+            "windows": "1:53974988700:web:009607c67256abcf8c3a59"
+          }
+        }
+      }
+    }
+  },
+  "firestore": {
+    "rules": "firestore.rules",
+    "indexes": "firestore.indexes.json"
+  },
+  "emulators": {
+    "auth": { "port": 9099, "host": "127.0.0.1" },
+    "firestore": { "port": 8085, "host": "127.0.0.1" },
+    "functions": { "port": 5001, "host": "127.0.0.1" },
+    "ui": { "enabled": true, "port": 4001, "host": "127.0.0.1" },
+    "storage": {
+      "port": 9199,
+      "rules": "storage.rules",
+      "host": "127.0.0.1"
+    },
+    "singleProjectMode": true
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "53974988700",
+    "project_id": "wonderwedding-aa6c3",
+    "storage_bucket": "wonderwedding-aa6c3.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:53974988700:android:b1a96fb260b3ac228c3a59",
+        "android_client_info": {
+          "package_name": "com.example.wonderclone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "53974988700-bhdt9h6r725u3fcqd2dv24on6m378ldb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1HHk-3iMpdk_3Dprc8gdT1cPboBI0xZI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "53974988700-bhdt9h6r725u3fcqd2dv24on6m378ldb.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "53974988700-pm1ep2s8120164moshhrt1o4rv1f882i.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.wonderwedding"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:53974988700:android:cdf066f3df9476558c3a59",
+        "android_client_info": {
+          "package_name": "com.example.wonderwedding"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "53974988700-2d1cqnb7k0t3kjq6dkfuhrf225hpcoh9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.wonderwedding",
+            "certificate_hash": "a451cd2abfcf7df0210e1b5a57ab1c64d356d88a"
+          }
+        },
+        {
+          "client_id": "53974988700-eted1acq8rlhipa3brejt93a0s3vpfsa.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.wonderwedding",
+            "certificate_hash": "9f34e6755fae72004e422d637862bf1f7e54b1be"
+          }
+        },
+        {
+          "client_id": "53974988700-bhdt9h6r725u3fcqd2dv24on6m378ldb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1HHk-3iMpdk_3Dprc8gdT1cPboBI0xZI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "53974988700-bhdt9h6r725u3fcqd2dv24on6m378ldb.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "53974988700-pm1ep2s8120164moshhrt1o4rv1f882i.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.wonderwedding"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

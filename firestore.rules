@@ -1,0 +1,52 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /weddings/{weddingId} {
+      
+      // Allow authenticated users to create weddings
+      allow create: if request.auth != null;
+      
+      // Allow read access to everyone (optional)
+      allow read: if true;
+      
+      // Allow update and delete only if the user is the owner
+      allow update, delete: if request.auth != null && request.auth.uid == resource.data.ownerId;
+      
+    }
+
+    match /users/{userId} {
+      
+      allow create: if true;
+      
+      // Allow users to read only their own data
+      allow read: if request.auth != null && request.auth.uid == userId;
+      
+      // Allow users to update and delete only their own document
+      allow update, delete: if request.auth != null && request.auth.uid == userId;
+    }
+
+    match /wallets/{walletId} {
+      // allow create: if request.auth != null
+      // allow read, update, delete: if request.auth != null && request.auth.uid == resource.data.userId;
+      allow read, write: if true;
+    }
+
+    match /transactions/{transactionId} {
+      // allow read: if request.auth != null
+      allow read, write: if true;
+    }
+
+    match /wallet_vaults/{walletVaultId} {
+      allow read, write: if true;
+    }
+
+    match /paypal_payout_batches/{paypalPayoutBatchId} {
+      allow read, write: if true;
+    }
+
+    match /jpesa_payout_batches/{jpesaPayoutBatchId} {
+      allow read, write: if true;
+    }
+  }
+}
